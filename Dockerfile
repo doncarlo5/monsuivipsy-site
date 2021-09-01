@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app/
 
-RUN yarn --production --frozen-lockfile --prefer-offline && yarn cache clean
+RUN yarn --frozen-lockfile --prefer-offline && yarn cache clean
 RUN yarn build
 
 USER node
