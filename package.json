@@ -24,6 +24,6 @@
     "@socialgouv/sre-secrets": "^1.4.0",
     "autoprefixer": "^10.2.6",
     "postcss": "^8.2.15",
-    "tailwindcss": "^2.0.4"
+    "tailwindcss": "^3.0.0"
   }
 }
