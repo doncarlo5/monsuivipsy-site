@@ -1,0 +1,5 @@
+projectName: monsuivipsy
+
+dependencies:
+  fabrique:
+    import: SocialGouv/kontinuous/plugins/fabrique
