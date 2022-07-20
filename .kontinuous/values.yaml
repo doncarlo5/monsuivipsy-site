@@ -1,4 +1,5 @@
 app:
+  needs: [build-app]
   probesPath: /api/healthz
   imageProject: monsuivipsy
   imageRepository: monsuivipsy-site
