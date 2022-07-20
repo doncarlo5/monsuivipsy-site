@@ -1,9 +1,10 @@
 app:
-  enabled: true
   probesPath: /api/healthz
+  imageProject: monsuivipsy
+  imageRepository: monsuivipsy-site
   envFrom:
-  - secretRef:
-      name: monsuivipsy-site-sealed-secret
+    - secretRef:
+        name: jardinmental
   ingress:
     annotations:
       nginx.ingress.kubernetes.io/configuration-snippet: |
@@ -11,3 +12,13 @@ app:
         more_set_headers "X-Frame-Options: deny";
         more_set_headers "X-XSS-Protection: 1; mode=block";
         more_set_headers "X-Content-Type-Options: nosniff";
+
+jobs:
+  runs:
+    build-app:
+      use: SocialGouv/kontinuous/plugins/fabrique/jobs/build@v1
+      with:
+        imageProject: monsuivipsy
+        imageRepository: monsuivipsy-site
+        imagePackage: app
+        registrySecretRefName: harbor
