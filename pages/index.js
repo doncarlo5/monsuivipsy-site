@@ -70,14 +70,14 @@ export default function Index() {
               />
             </div>
           </div>
-          <div className="items-center justify-center hidden w-3/4 lg:flex">
+          <div className="items-center justify-center hidden w-7/12 lg:flex">
             <img src="images/other/hero.png" alt="" />
           </div>
         </div>
         <div className="container flex space-x-4 my-4">
           <img className="h-16" src="images/logo_fab.png" alt="" />
           <img className="h-16" src="images/logo_ars.jpeg" alt="" />
-          <img className=" h-16" src="images/logo_barth.jpeg" alt="" />
+          <img className="h-16" src="images/logo_barth.jpeg" alt="" />
         </div>
       </header>
       <main>
@@ -240,11 +240,14 @@ export default function Index() {
                 <h6 className="mb-2 text-lg font-bold text-denim-800">
                   Télécharger la notice et nos conseils d’utilisation{" "}
                 </h6>
-                <div className="flex justify-center shadow-lg">
-                  <a href="Notice Jardin Mental.pdf" download>
+                <div className="flex justify-center">
+                  <a
+                    className="shadow-lg"
+                    href="Notice Jardin Mental.pdf"
+                    download
+                  >
                     <img
                       className="h-60"
-                      ß
                       src="images/other/preview.png"
                       alt=""
                     />
@@ -267,7 +270,7 @@ export default function Index() {
                 </div>
                 <div>
                   <a
-                    className="text-base font-bold break-all md:text-lg text-turqoise-500"
+                    className="text-base font-bold break-all text-turqoise-500"
                     href="mailto:jardinmental@fabrique.social.gouv.fr"
                   >
                     jardinmental@fabrique.social.gouv.fr
