@@ -70,14 +70,14 @@ export default function Index() {
               />
             </div>
           </div>
-          <div className="items-center justify-center hidden w-3/4 lg:flex">
+          <div className="items-center justify-center hidden w-7/12 lg:flex">
             <img src="images/other/hero.png" alt="" />
           </div>
         </div>
         <div className="container flex space-x-4 my-4">
           <img className="h-16" src="images/logo_fab.png" alt="" />
           <img className="h-16" src="images/logo_ars.jpeg" alt="" />
-          <img className=" h-16" src="images/logo_barth.jpeg" alt="" />
+          <img className="h-16" src="images/logo_barth.jpeg" alt="" />
         </div>
       </header>
       <main>
@@ -241,10 +241,13 @@ export default function Index() {
                   Télécharger la notice et nos conseils d’utilisation{" "}
                 </h6>
                 <div className="flex justify-center shadow-lg">
-                  <a href="Notice Jardin Mental.pdf" download>
+                  <a
+                    className="shadow-lg"
+                    href="Notice Jardin Mental.pdf"
+                    download
+                  >
                     <img
                       className="h-60"
-                      ß
                       src="images/other/preview.png"
                       alt=""
                     />
