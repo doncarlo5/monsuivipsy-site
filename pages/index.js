@@ -240,7 +240,7 @@ export default function Index() {
                 <h6 className="mb-2 text-lg font-bold text-denim-800">
                   Télécharger la notice et nos conseils d’utilisation{" "}
                 </h6>
-                <div className="flex justify-center shadow-lg">
+                <div className="flex justify-center">
                   <a
                     className="shadow-lg"
                     href="Notice Jardin Mental.pdf"
@@ -270,7 +270,7 @@ export default function Index() {
                 </div>
                 <div>
                   <a
-                    className="text-base font-bold break-all md:text-lg text-turqoise-500"
+                    className="text-base font-bold break-all text-turqoise-500"
                     href="mailto:jardinmental@fabrique.social.gouv.fr"
                   >
                     jardinmental@fabrique.social.gouv.fr
