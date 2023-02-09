@@ -18,11 +18,7 @@ export default () => {
           <div>
             <Title title="Éditeur du site" />
             <Content>
-              <p>
-                L’application Jardin Mental est éditée par la Direction Générale
-                de la Santé au sein de la Fabrique numérique des Ministères
-                sociaux située :
-              </p>
+              <p>Le site Jardin Mental est édité par l’ARS Ile de France :</p>
               <br />
               <ul>
                 <li>Tour Mirabeau</li>
@@ -32,7 +28,7 @@ export default () => {
               </ul>
               <br />
               <strong>Directeur de la publication</strong>
-              <p>Monsieur Jérôme SALOMON, Directeur général de la Santé</p>
+              <p>Madame Amélie Verdier, Directrice</p>
             </Content>
           </div>
 
@@ -40,8 +36,8 @@ export default () => {
             <Title title="Hébergement du site" />
             <Content>
               <p>
-                Cette application est hébergée par Microsoft Azure France
-                (région France centre) :
+                Ce site est hébergé par Microsoft Azure France (région France
+                centre) :
               </p>
               <br />
               <ul>
@@ -57,7 +53,7 @@ export default () => {
             <Content>
               <p>
                 La conformité aux normes d’accessibilité numérique est un
-                objectif ultérieur mais nous tâchons de rendre cette application
+                objectif ultérieur mais nous tâchons de rendre ce site
                 accessible à toutes et à tous.
               </p>
             </Content>
@@ -91,12 +87,12 @@ export default () => {
             <Title title="Sécurité" />
             <Content>
               <p>
-                L’application est protégée par un certificat électronique,
-                matérialisé pour la grande majorité des navigateurs par un
-                cadenas. Cette protection participe à la confidentialité des
-                échanges. En aucun cas les services associés à au site ne seront
-                à l’origine d’envoi de courriels pour demander la saisie
-                d’informations personnelles.
+                Le site est protégé par un certificat électronique, matérialisé
+                pour la grande majorité des navigateurs par un cadenas. Cette
+                protection participe à la confidentialité des échanges. En aucun
+                cas les services associés au site ne seront à l’origine d’envoi
+                de courriels pour demander la saisie d’informations
+                personnelles.
               </p>
             </Content>
           </div>
