@@ -19,9 +19,8 @@ export default () => {
             <Title title="Traitement des données à caractère personnel" />
             <Content>
               <p>
-                Le présent site « Jardin Mental » est à l'initiative de la
-                Direction Générale de la Santé au sein de la Fabrique numérique
-                des ministères sociaux.
+                Le présent site JardinMental est à l’initiative de l’ARS Ile de
+                France au sein de la Fabrique numérique des ministères sociaux.
               </p>
             </Content>
           </div>
@@ -56,20 +55,6 @@ export default () => {
             <Title title="Base juridique du traitement de données" />
             <Content>
               <p>
-                Les données traitées à l'occasion de ces traitements ont
-                plusieurs fondements juridiques :
-              </p>
-              <br />
-              <ul className="list-disc list-inside">
-                <li>
-                  L'obligation légale à laquelle est soumise le responsable de
-                  traitements au sens de l'article 6-c du RGPD ;
-                </li>
-              </ul>
-              <br />
-              <strong>Ces fondements sont précisés ci-dessous :</strong>
-              <br />
-              <p>
                 a. <strong>Données de connexion</strong>
               </p>
               <br />
@@ -84,8 +69,11 @@ export default () => {
               <br />
               <p>
                 L'obligation légale est posée par la loi LCEN n° 2004-575 du 21
-                juin 2004 pour la confiance dans l'économie numérique et par l'
-                article 1 du décret n°2021-1363 du 20 octobre 2021.
+                juin 2004 pour la confiance dans l'économie numérique et par
+                l’article 1 du décret n°2021-1363 portant injonction, au regard
+                de la menace grave et actuelle contre la sécurité nationale, de
+                conservation pour une durée d'un an de certaines catégories de
+                données de connexion.
               </p>
               <br />
               <p>
