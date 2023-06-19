@@ -4,3 +4,6 @@
 *.md
 **/node_modules
 **/.next/cache
+.kontinuous
+.dockerignore
+Dockerfile
