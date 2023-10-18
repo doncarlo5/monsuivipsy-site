@@ -6,3 +6,11 @@ public/.DS_Store
 .env
 .DS_Store
 .secrets.yaml
+
+# Yarn Berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
