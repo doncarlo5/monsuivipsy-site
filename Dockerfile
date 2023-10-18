@@ -14,7 +14,7 @@ COPY yarn.lock .yarnrc.yml ./
 COPY --chown=1000:1000 .yarn .yarn
 RUN yarn fetch --immutable && yarn cache clean
 
-COPY . /app/
+COPY --chown=1000:1000 . .
 
 RUN yarn build
 
