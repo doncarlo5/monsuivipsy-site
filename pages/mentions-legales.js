@@ -41,9 +41,9 @@ export default () => {
               </p>
               <br />
               <ul>
-                <li>Microsoft France</li>
-                <li>37 Quai du Président Roosevelt</li>
-                <li>92130 ISSY-LES-MOULINEAUX</li>
+                <li>OVH SAS</li>
+                <li>2 rue Kellermann - 59100 Roubaix</li>
+                <li>France.</li>
               </ul>
             </Content>
           </div>
