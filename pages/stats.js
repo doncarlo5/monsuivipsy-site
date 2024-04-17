@@ -7,11 +7,11 @@ const Stats = () => {
     <div
       className="bg-right-top bg-no-repeat"
       style={{ backgroundImage: `url("images/other/hero-bg.svg")` }}
-    >      
+    >
       <Navigation />
       <div>
         <iframe
-          src="https://matomo-metabase-monsuivipsy.fabrique.social.gouv.fr/public/dashboard/56aa504a-d770-4185-b08a-faa6eb2427d5"
+          src="https://matomo-metabase-jardinmental.fabrique.social.gouv.fr/public/dashboard/56aa504a-d770-4185-b08a-faa6eb2427d5"
           frameBorder="0"
           title="MonPsy Santé, statistiques"
           width="90%"
