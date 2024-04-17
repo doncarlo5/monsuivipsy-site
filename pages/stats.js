@@ -11,7 +11,7 @@ const Stats = () => {
       <Navigation />
       <div>
         <iframe
-          src="https://matomo-metabase-jardinmental.fabrique.social.gouv.fr/public/dashboard/56aa504a-d770-4185-b08a-faa6eb2427d5"
+          src="https://metabase-jardinmental.fabrique.social.gouv.fr/public/dashboard/56aa504a-d770-4185-b08a-faa6eb2427d5"
           frameBorder="0"
           title="MonPsy Santé, statistiques"
           width="90%"
