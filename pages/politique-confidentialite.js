@@ -11,226 +11,211 @@ export default () => {
 
       <div className="container py-14">
         <h3 className="mb-6 text-2xl font-bold text-center lg:text-4xl text-denim-800 lg:mb-10">
-          Politique de confidentialité
+          Politique de confidentialité – Jardin mental
         </h3>
 
         <div className="grid grid-cols-1 gap-8">
           <div>
-            <Title title="Traitement des données à caractère personnel" />
+            <Title title="Qui est responsable de Jardin mental ?" />
             <Content>
               <p>
-                Le présent site JardinMental est à l’initiative de l’ARS Ile de
-                France au sein de la Fabrique numérique des ministères sociaux.
+                Le service numérique « Jardin mental » est à l’initiative de la
+                Direction générale de la santé au sein de la Fabrique numérique
+                des ministères sociaux.
               </p>
             </Content>
           </div>
 
           <div>
-            <Title title="Finalité" />
+            <Title title="Pourquoi traitons-nous des données à caractère personnel ?" />
             <Content>
-              <p>
-                Le site « Jardin Mental » vise à présenter l'application «
-                Jardin Mental » et son fonctionnement.
+              <p className="mb-0.5">
+                Jardin mental traite des données à caractère personnel pour les
+                raisons suivantes :
               </p>
-            </Content>
-          </div>
-
-          <div>
-            <Title title="Données à caractère personnel traitées" />
-            <Content>
-              <p>Sont traitées les données suivantes :</p>
-              <br />
               <ul className="list-disc list-inside">
                 <li>
-                  Données de connexion (et notamment, les identifiants de
-                  connexion, nature des opérations, date et heure de
-                  l'opération)
-                </li>
-                <li>Cookies.</li>
-              </ul>
-            </Content>
-          </div>
-
-          <div>
-            <Title title="Base juridique du traitement de données" />
-            <Content>
-              <p>
-                a. <strong>Données de connexion</strong>
-              </p>
-              <br />
-              <p>
-                Ce traitement est nécessaire au respect d'une obligation légale
-                à laquelle le responsable de traitement est soumis au sens de
-                l'article 6-c du Règlement (UE) 2016/679 du Parlement européen
-                et du Conseil du 27 avril 2016 relatif à la protection des
-                personnes physiques à l'égard du traitement des données à
-                caractère personnel et à la libre circulation de ces données.
-              </p>
-              <br />
-              <p>
-                L'obligation légale est posée par la loi LCEN n° 2004-575 du 21
-                juin 2004 pour la confiance dans l'économie numérique et par
-                l’article 1 du décret n°2021-1363 portant injonction, au regard
-                de la menace grave et actuelle contre la sécurité nationale, de
-                conservation pour une durée d'un an de certaines catégories de
-                données de connexion.
-              </p>
-              <br />
-              <p>
-                b. <strong>Cookies</strong>
-              </p>
-              <br />
-              <p>
-                En application de l'article 5(3) de la directive 2002/58/CE
-                modifiée concernant le traitement des données à caractère
-                personnel et la protection de la vie privée dans le secteur des
-                communications électroniques, transposée à l'article 82 de la
-                loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux
-                fichiers et aux libertés, les traceurs ou cookies suivent deux
-                régimes distincts.
-              </p>
-              <br />
-              <p>
-                Les cookies strictement nécessaires au service ou ayant pour
-                finalité exclusive de faciliter la communication par voie
-                électronique sont dispensés de consentement préalable au titre
-                de l'article 82 de la loi n°78-17 du 6 janvier 1978.
-              </p>
-              <br />
-              <p>
-                Les cookies n'étant pas strictement nécessaires au service ou
-                n'ayant pas pour finalité exclusive de faciliter la
-                communication par voie électronique doivent être consenti par
-                l'utilisateur.
-              </p>
-              <br />
-              <p>
-                Ce consentement de la personne concernée pour une ou plusieurs
-                finalités spécifiques constitue une base légale au sens du RGPD
-                et doit être entendu au sens de l'article 6-a du Règlement (UE)
-                2016/679 du Parlement européen et du Conseil du 27 avril 2016
-                relatif à la protection des personnes physiques à l'égard du
-                traitement des données à caractère personnel et à la libre
-                circulation de ces données.
-              </p>
-            </Content>
-          </div>
-
-          <div>
-            <Title title="Durée de conservation" />
-            <Content>
-              <p>Les données à caractère personnel sont conservées :</p>
-              <br />
-              <ul className="list-disc list-inside">
-                <li>
-                  Données de connexion : 12 mois (article 1 du Décret n°
-                  2021-1363 du 20 octobre 2021).
-                </li>
-                <li>
-                  Cookies : 13 mois maximum, ou jusqu'au retrait du consentement
-                  de la personne.
+                  Accompagner les personnes qui le souhaitent à mieux connaître
+                  et suivre leurs symptômes, leurs ressentis ou toute activité
+                  personnalisée, leur permettant de faciliter leur
+                  accompagnement psychologique.
                 </li>
               </ul>
             </Content>
           </div>
 
           <div>
-            <Title title="Droit des personnes concernées" />
+            <Title title="Quelles sont les données à caractère personnel que nous traitons ?" />
             <Content>
-              <p>
-                Vous disposez des droits suivants concernant vos données à
-                caractère personnel :
+              <p className="mb-0.5">
+                Jardin mental traite les données suivantes :
               </p>
-              <br />
-              <ul className="list-disc list-inside">
-                <li>Droit d'information et droit d'accès des données ;</li>
-                <li>
-                  Droit de rectification et le cas échéant de suppression des
-                  données.
-                </li>
-              </ul>
-              <br />
-              <p>
-                Pour les exercer, faites-nous parvenir une demande en précisant
-                la date et l'heure précise de la requête - ces éléments sont
-                indispensables pour nous permettre de retrouver votre recherche
-                :
-              </p>
-              <br />
               <ul className="list-disc list-inside">
                 <li>
-                  par voie électronique à l'adresse suivante :{" "}
-                  <a
-                    className="text-denim-700"
-                    href="mailto:jardinmental@fabrique.social.gouv.fr"
-                  >
-                    jardinmental@fabrique.social.gouv.fr
-                  </a>
-                </li>
-                <li>
-                  par voie postale : Fabrique numérique des ministères sociaux
+                  <strong>Données relatives aux professionnels</strong>: adresse
+                  e-mail. La communication de cette donnée est une simple
+                  possibilité proposée pour être tenu au courant des prochaines
+                  évolutions et actualités de Jardin mental.
                 </li>
               </ul>
-              <br />
-              <ul className="list-inside">
+            </Content>
+          </div>
+
+          <div>
+            <Title title="Qu’est-ce qui nous autorise à traiter des données à caractère personnel ?" />
+            <Content>
+              <p className="mb-0.5">
+                Jardin mental traite des données à caractère personnel sur son
+                application en se basant sur :
+              </p>
+              <ul className="list-disc list-inside">
+                <li>
+                  L’exécution d’une mission d’intérêt public ou relevant de
+                  l’exercice de l’autorité publique dont est investi le
+                  responsable de traitement au sens de l’article 6-1 e) du RGPD.
+                </li>
+              </ul>
+              <p className="mb-0.5">Et concernant le site vitrine, sur :</p>
+              <ul className="list-disc list-inside">
+                <li>
+                  L’intérêt légitime poursuivi par le responsable de traitement
+                  sans que ne prévalent les intérêts ou les libertés et droits
+                  fondamentaux des personnes concernées, au sens de l’article
+                  6-1 f) du RGPD.
+                </li>
+              </ul>
+            </Content>
+          </div>
+
+          <div>
+            <Title title="Pendant combien de temps conservons-nous ces données ?" />
+            <Content>
+              <table className="mx-auto border border-collapse table-auto border-denim-900">
+                <thead>
+                  <tr>
+                    <th className="p-3 border border-denim-900">
+                      Catégories de données
+                    </th>
+                    <th className="p-3 border border-denim-900">
+                      Durée de conservation
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="p-3 border border-denim-900">
+                      Données relatives aux professionnels
+                    </td>
+                    <td className="p-3 border border-denim-900">
+                      Jusqu’à la demande de désinscription à la newsletter
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </Content>
+          </div>
+
+          <div>
+            <Title title="Quels sont vos droits ?" />
+            <Content>
+              <p>Vous disposez :</p>
+              <ul className="list-disc list-inside mb-2">
+                <li>D’un droit d’information et droit d’accès ;</li>
+                <li>D’un droit de rectification ;</li>
+                <li>D’un droit d’opposition ;</li>
+                <li>D’un droit à la limitation du traitement.</li>
+              </ul>
+              <p className="mb-2">
+                Pour les exercer, contactez-nous par voie électronique :{" "}
+                <a
+                  className="text-denim-700"
+                  href="mailto:jardinmental@fabrique.social.gouv.fr"
+                >
+                  jardinmental@fabrique.social.gouv.fr
+                </a>
+              </p>
+              <p>Par voie postale :</p>
+              <ul className="list-inside italic mb-2">
+                <li>Direction du Numérique des ministères sociaux</li>
                 <li>Ministère des solidarités et de la santé</li>
                 <li>39-43 Quai André Citroën</li>
-                <li>75015 PARIS</li>
+                <li>75015 Paris</li>
               </ul>
-              <br />
-              <p>
-                En raison de l'obligation de sécurité et de confidentialité dans
-                le traitement des données à caractère personnel qui incombe au
-                responsable de traitement, votre demande ne sera traitée que si
-                vous apportez la preuve de votre identité.
+              <p className="mb-2">
+                Puisque ce sont des droits personnels, nous ne traiterons votre
+                demande que si nous sommes en mesure de vous identifier. Dans le
+                cas où nous ne parvenons pas à vous identifier, nous pouvons
+                être amenés à vous demander une preuve de votre identité.
               </p>
-              <br />
-              <p>
-                Pour vous aider dans votre démarche, vous trouverez ici{" "}
+              <p className="mb-2">
+                Pour vous aider dans votre démarche, vous trouverez un modèle de
+                courrier élaboré par la CNIL ici :{" "}
                 <a
                   className="text-denim-700"
                   href="https://www.cnil.fr/fr/modele/courrier/exercer-son-droit-dacces"
                 >
                   https://www.cnil.fr/fr/modele/courrier/exercer-son-droit-dacces
-                </a>{" "}
-                , un modèle de courrier élaboré par la Cnil.
+                </a>
               </p>
-              <br />
               <p>
-                Nous nous engageons à ne jamais céder ces informations à des
-                tiers.
+                Nous nous engageons à vous répondre dans un délai raisonnable
+                qui ne saurait dépasser 1 mois à compter de la réception de
+                votre demande.
               </p>
-              <br />
-              <strong>Délais de réponse</strong>
-              <br />
-              <p>
-                Le responsable de traitement s'engage à répondre dans un délai
-                raisonnable qui ne saurait dépasser 1 mois à compter de la
-                réception de votre demande.
+            </Content>
+          </div>
+
+          <div>
+            <Title title="Qui va avoir accès à ces données ?" />
+            <Content>
+              <p className=" mb-1">
+                Les accès aux données sont strictement encadrés et juridiquement
+                justifiés. Les personnes suivantes vont avoir accès aux données
+                :
               </p>
-              <br />
-              <strong>Destinataires des données</strong>
-              <br />
-              <p>
-                Le responsable de traitement s'engage à ce que les données à
-                caractères personnels soient traitées par les seules personnes
-                autorisées.
+              <ul className="list-disc list-inside">
+                <li>
+                  Les membres de l’équipe Jardin Mental au sein de la Fabrique
+                  numérique des ministères sociaux.
+                </li>
+              </ul>
+            </Content>
+          </div>
+
+          <div>
+            <Title title="Quelles mesures de sécurité mettons-nous en place ?" />
+            <Content>
+              <p className=" mb-1">
+                Nous mettons en place plusieurs mesures pour sécuriser les
+                données :
               </p>
-              <br />
-              <strong>Sous-traitants</strong>
-              <br />
-              <p>
-                Certaines des données sont envoyées à des sous-traitants pour
-                réaliser certaines missions. Le responsable de traitement s'est
-                assuré de la mise en œuvre par ses sous-traitants de garanties
-                adéquates et du respect de conditions strictes de
-                confidentialité, d'usage et de protection des données.
-              </p>
-              <br />
+              <ul className="list-disc list-inside">
+                <li>Stockage des données en base de données ;</li>
+                <li>Cloisonnement des données ;</li>
+                <li>Mesures de traçabilité ;</li>
+                <li>Surveillance ;</li>
+                <li>
+                  Protection contre les virus, malwares et logiciels espions ;
+                </li>
+                <li>Protection des réseaux ;</li>
+                <li>Sauvegarde ;</li>
+                <li>
+                  Mesures restrictives limitant l’accès physique aux données à
+                  caractère personnel.
+                </li>
+              </ul>
+            </Content>
+          </div>
+
+          <div>
+            <Title title="Qui nous aide à traiter les données à caractère personnel ?" />
+            <Content>
               <table className="mx-auto border border-collapse table-auto border-denim-900">
                 <thead>
                   <tr>
-                    <th className="p-3 border border-denim-900">Partenaire</th>
+                    <th className="p-3 border border-denim-900">
+                      Sous-traitant
+                    </th>
                     <th className="p-3 border border-denim-900">
                       Pays destinataire
                     </th>
@@ -242,133 +227,106 @@ export default () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="p-3 border border-denim-900">
-                      Microsoft Azure
-                    </td>
+                    <td className="p-3 border border-denim-900">OVH</td>
                     <td className="p-3 border border-denim-900">France</td>
-                    <td className="p-3 border border-denim-900">
-                      Hébergement du site
-                    </td>
+                    <td className="p-3 border border-denim-900">Hébergement</td>
                     <td className="p-3 border border-denim-900">
                       <a
                         className="text-denim-700"
-                        href="https://privacy.microsoft.com/fr-fr/privacystatement"
+                        href="https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/9e74492-OVH_Data_Protection_Agreement-FR-6.0.pdf"
                       >
-                        https://privacy.microsoft.com/fr-fr/privacystatement
+                        OVH Data Protection Agreement
                       </a>
                     </td>
                   </tr>
                 </tbody>
               </table>
-              <br />
-              <strong>Sécurité et confidentialité des données</strong>
-              <br />
-              <p>
-                Le responsable de traitements ne conserve pas de données à
-                caractère personnel sur le réseau. Elles sont conservées sur la
-                machine locale de l'utilisateur. Dès lors il en a la maîtrise,
-                et est le seul à même d'en garantir la sécurité et
-                confidentialité.
-              </p>
             </Content>
           </div>
 
           <div>
-            <Title title="Utilisation de témoins de connexion (« cookies »)" />
+            <Title title="Cookies" />
             <Content>
-              <p>
+              <p className=" mb-2">
                 Un cookie est un fichier déposé sur votre terminal lors de la
-                visite d'un site. Il a pour but de collecter des informations
+                visite d’un site. Il a pour but de collecter des informations
                 relatives à votre navigation et de vous adresser des services
                 adaptés à votre terminal (ordinateur, mobile ou tablette).
               </p>
-              <br />
-              <p>
-                Nous collectons donc des données par l'intermédiaire de
-                dispositifs appelés "cookies" permettant d'établir des mesures
-                statistiques.
+              <p className=" mb-2">
+                En application de l’article 5(3) de la directive 2002/58/CE
+                modifiée concernant le traitement des données à caractère
+                personnel et la protection de la vie privée dans le secteur des
+                communications électroniques, transposée à l’article 82 de la
+                loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux
+                fichiers et aux libertés, les traceurs ou cookies suivent deux
+                régimes distincts.
               </p>
-              <br />
-              <p>
-                Le site dépose des cookies de mesure d'audience (nombre de
-                visites, pages consultées), respectant les conditions
-                d'exemption du consentement de l'internaute définies par la
-                recommandation « Cookies » de la Commission nationale
-                informatique et libertés (CNIL). Cela signifie, notamment, que
-                ces cookies ne servent qu'à la production de statistiques
-                anonymes et ne permettent pas de suivre la navigation de
-                l'internaute sur d'autres sites. Le site dépose également des
-                cookies de navigation, aux fins strictement techniques, qui ne
-                sont pas conservés. La consultation du site n'est pas affectée
-                lorsque les utilisateurs utilisent des navigateurs désactivant
-                les cookies.
+              <p className=" mb-2">
+                Les cookies strictement nécessaires au service ou ayant pour
+                finalité exclusive de faciliter la communication par voie
+                électronique sont dispensés de consentement préalable au titre
+                de l’article 82 de la loi n°78-17 du 6 janvier 1978.
               </p>
-              <br />
-              <p>
-                <strong>Nous utilisons pour cela Matomo</strong>, un outil de
-                mesure d'audience web libre, paramétré pour être en conformité
-                avec la recommandation « Cookies » de la CNIL. Cela signifie que
-                votre adresse IP, par exemple, est anonymisée avant d'être
-                enregistrée. Il est donc impossible d'associer vos visites sur
-                ce site à votre personne.
+              <p className=" mb-2">
+                Les cookies n’étant pas strictement nécessaires au service ou
+                n’ayant pas pour finalité exclusive de faciliter la
+                communication par voie électronique doivent être consentis par
+                l’utilisateur.
               </p>
-              <br />
-              <p>Il convient d'indiquer que :</p>
-              <br />
-              <ul className="list-disc list-inside">
-                <li>
-                  Les données collectées ne sont pas recoupées avec d'autres
-                  traitements.
-                </li>
-                <li>
-                  Les cookies ne permettent pas de suivre la navigation de
-                  l'internaute sur d'autres sites.
-                </li>
-              </ul>
-              <br />
-              <p>
-                Vous pouvez vous opposer au suivi de votre navigation sur ce
-                site web. Cela protégera votre vie privée, mais empêchera
-                également le propriétaire d'apprendre de vos actions et de créer
-                une meilleure expérience pour vous et les autres utilisateurs.
+              <p className=" mb-2">
+                Ce consentement de la personne concernée pour une ou plusieurs
+                finalités spécifiques constitue une base légale au sens du RGPD
+                et doit être entendu au sens de l'article 6-a du Règlement (UE)
+                2016/679 du Parlement européen et du Conseil du 27 avril 2016
+                relatif à la protection des personnes physiques à l'égard du
+                traitement des données à caractère personnel et à la libre
+                circulation de ces données.
               </p>
-              <br />
-              <label htmlFor="check">
-                <input type="checkbox" id="check" checked />{" "}
-                <span className="font-bold text-denim-700">
-                  Vous n'êtes pas exclu(e). Décochez cette case pour être
-                  exclu(e).
-                </span>
-              </label>
-              <br />
-              <br />
-              <p>
-                À tout moment, vous pouvez refuser l'utilisation des cookies et
+              <p className=" mb-2">
+                À tout moment, vous pouvez refuser l’utilisation des cookies et
                 désactiver le dépôt sur votre ordinateur en utilisant la
                 fonction dédiée de votre navigateur (fonction disponible
                 notamment sur Microsoft Internet Explorer 11, Google Chrome,
                 Mozilla Firefox, Apple Safari et Opera).
               </p>
-              <br />
-              <p>
+              <p className=" mb-2">
                 Pour aller plus loin, vous pouvez consulter les fiches proposées
                 par la Commission Nationale de l'Informatique et des Libertés
                 (CNIL) :
               </p>
+              <ul className="list-inside list-disc">
+                <li>
+                  <a
+                    className="text-denim-700"
+                    href="https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies/que-dit-la-loi"
+                  >
+                    Cookies & traceurs : que dit la loi ?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="text-denim-700"
+                    href="https://www.cnil.fr/fr/cookies-et-autres-traceurs/comment-se-proteger/maitriser-votre-navigateur"
+                  >
+                    Cookies : les outils pour les maîtriser
+                  </a>
+                </li>
+              </ul>
               <br />
-              <a
-                className="text-denim-700"
-                href="https://www.cnil.fr/fr/cookies-traceurs-que-dit-la-loi"
-              >
-                Cookies & traceurs : que dit la loi ?
-              </a>
-              <br />
-              <a
-                className="text-denim-700"
-                href="https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser"
-              >
-                Cookies : les outils pour les maîtriser
-              </a>
+              <p className=" mb-2">
+                Nous utilisons Matomo, une solution de mesure d’audience,
+                configuré en “mode exempté” ne nécessitant pas le recueil du
+                consentement des utilisateurs conformément aux recommandations
+                de la CNIL.
+              </p>
+              <label htmlFor="check">
+                <input type="checkbox" id="check" checked />
+                <span className="font-bold text-denim-700">
+                  Vous êtes suivis de manière anonyme. Décochez cette case pour
+                  ne plus être suivi.
+                </span>
+              </label>
             </Content>
           </div>
         </div>
